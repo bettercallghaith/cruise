@@ -1,0 +1,65 @@
+{
+  "vision_engine_v2": {
+    "system_rules": {
+      "extraction_logic": [
+        "Rule 1: Always prioritize lighting and material physics over basic color descriptions.",
+        "Rule 2: If an image looks computer-generated, specify the likely render engine and shading techniques.",
+        "Rule 3: If an image is a photograph, specify the exact camera format, lens, and film stock.",
+        "Rule 4: Never use vague words like 'beautiful', 'nice', or 'cool'. Replace them with technical visual equivalents.",
+        "Rule 5: Always define the exact spatial relationship between the camera and the primary subject."
+      ],
+      "forbidden_terms": [
+        "high quality",
+        "masterpiece",
+        "best quality",
+        "good lighting"
+      ]
+    },
+    "technical_dictionaries": {
+      "advanced_lighting": [
+        "Global Illumination (GI) with multiple light bounces",
+        "HDRI environment lighting",
+        "IES light profiles (accurate architectural downlighting)",
+        "Volumetric scattering (Tyndall effect / God rays)",
+        "Chiaroscuro lighting (extreme dark/light contrast)",
+        "Studio three-point lighting with softboxes",
+        "Bioluminescence with subsurface glow",
+        "Cinematic teal and orange color grading",
+        "Golden hour long-shadows"
+      ],
+      "camera_and_optics": [
+        "Medium Format Photography (Hasselblad, Phase One)",
+        "35mm film stock (Kodak Portra 400, Fujifilm Superia)",
+        "14mm Ultra-wide rectilinear lens (for vast interiors/exteriors)",
+        "85mm f/1.2 prime lens (creamy, compressed bokeh)",
+        "Macro photography (1:1 reproduction ratio, extreme close-up)",
+        "Drone/Aerial top-down perspective",
+        "Anamorphic cinematic lens (horizontal lens flares)"
+      ],
+      "material_and_surface_physics": [
+        "Physically Based Rendering (PBR) materials",
+        "Micro-facet roughness and anisotropic reflections (brushed steel/aluminum)",
+        "Subsurface scattering (BSSRDF) for human skin, marble, or wax",
+        "Caustics (complex light refraction through glass or water)",
+        "Weathering details: Patina, oxidation, micro-scratches, dust accumulation",
+        "Textiles: Heavy thread count, woven linen, distressed leather, silk sheen"
+      ],
+      "architecture_and_spaces": [
+        "ArchViz (Architectural Visualization) hyper-realism",
+        "Parametric and biomimetic structures",
+        "Contemporary Gulf-region architecture (modern geometric facades)",
+        "Interior daylight simulation",
+        "Brutalist concrete textures vs. modern glass-curtain walls",
+        "Staging: minimalist, mid-century modern, or ultra-luxury corporate",
+        "Depth staging (foreground elements blurring into expansive backgrounds)"
+      ],
+      "render_engines_and_techniques": [
+        "Unreal Engine 5 (Lumen lighting, Nanite geometry)",
+        "Octane Render (unbiased, GPU-accelerated)",
+        "V-Ray (ArchViz standard, crisp GI)",
+        "Photogrammetry (3D scanned real-world assets)",
+        "ZBrush highly detailed sculpt"
+      ]
+    }
+  }
+}
