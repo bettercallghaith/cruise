@@ -1,0 +1,36 @@
+{
+  "vision_engine_v3": {
+    "technical_dictionaries": {
+      "1_advanced_lighting": [
+        "Global Illumination (GI)", "HDRI environment lighting", "Volumetric scattering", "Chiaroscuro lighting", "Studio three-point lighting", "Cinematic teal and orange grading"
+      ],
+      "2_camera_and_optics": [
+        "Medium Format Photography", "85mm f/1.2 prime lens", "Macro photography (1:1)", "Drone/Aerial top-down", "Anamorphic cinematic lens"
+      ],
+      "3_material_physics": [
+        "Physically Based Rendering (PBR)", "Micro-facet roughness", "Subsurface scattering (BSSRDF)", "Caustics", "Weathering: Patina, oxidation"
+      ],
+      "4_architecture_and_spaces": [
+        "ArchViz hyper-realism", "Contemporary Gulf-region architecture (Doha/Qatar Vision 2030 aesthetic)", "Interior daylight simulation", "Brutalist concrete vs. modern glass-curtain walls"
+      ],
+      "5_facial_and_anatomy": [
+        "Micro-pore skin texture", "Asymmetrical facial micro-expressions", "Vellus hair detailing", "Catchlights in the iris", "Melanin-rich subsurface glow"
+      ],
+      "6_render_engines": [
+        "Unreal Engine 5.4 Lumen", "Octane Render", "V-Ray 6", "Path-traced rendering"
+      ],
+      "7_atmospheric_effects": [
+        "Low-lying advection fog", "Particulate matter in the air", "Heat distortion (mirage effect)", "Lens flares and light leaks"
+      ],
+      "8_composition_and_framing": [
+        "Golden Ratio spiral", "Leading lines to center subject", "Dutch Angle", "Low-angle hero perspective", "Symmetrical brutalism"
+      ],
+      "9_color_grading_lut": [
+        "Kodak Portra 400 film emulation", "Fujifilm Superia 200", "Desaturated cyberpunk", "High-key monochrome", "Rich earth tones"
+      ],
+      "10_negative_constraints": [
+        "Avoid: plastic skin, over-saturation, deformed geometry, watermarks, text, cartoonish shading, low resolution"
+      ]
+    }
+  }
+}
